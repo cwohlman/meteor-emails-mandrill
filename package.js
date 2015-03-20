@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cwohlman:emails-mandrill',
-  version: "0.1.1",
+  version: "0.2.0-1",
   // Brief, one-line summary of the package.
   summary: 'Send emails using mandrill',
   // URL to the Git repository containing the source code for this package.
@@ -13,8 +13,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
-  api.use('cwohlman:emails@0.1.0');
-  api.use('wylio:mandrill@0.1.0');
+  api.use('cwohlman:emails@0.5.0-0');
+  api.use('wylio:mandrill@0.2.1');
 
   api.imply('cwohlman:emails');
 
